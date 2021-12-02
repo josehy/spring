@@ -55,6 +55,17 @@
     };
 </script>
 <script>
+	function CheckPw() {
+             if(document.getElementById('password').value==document.getElementById('password2').value){
+                 document.getElementById('check').innerHTML='비밀번호가 일치합니다.'
+                 document.getElementById('check').style.color='blue';
+             }else{
+                 document.getElementById('check').innerHTML='비밀번호가 일치하지 않습니다.';
+                 document.getElementById('check').style.color='red';
+             }
+         }
+</script>
+<script>
 function validCheck() {
 	const frm = document.frmReg;
 if (frm.name.value == "") {
@@ -152,7 +163,10 @@ new daum.Postcode(
 			</tr>
 
 		 	<tr><th>비밀번호</th>
-		 		<td><input type="password" name="password">(8자리 이상 입력해주세요)</td>
+		 		<td><input type="password" name="password" id="password" required onchange="CheckPw()">(8자리 이상 입력해주세요)</td>
+		 	</tr>
+		 	 	<tr><th>비밀번호 확인</th>
+		 		<td><input type="password" name="password2" id="password2" required onchange="CheckPw()">&nbsp;<span id="check"></span></td>
 		 	</tr>
 		 	<tr>
 		 		<th>닉네임</th> 
