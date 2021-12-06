@@ -18,6 +18,7 @@ import com.jcpdev.model.AdopttimeDto_second;
 import com.jcpdev.model.PetsitterDto;
 import com.jcpdev.model.Petsitter_Select_PageDto;
 import com.jcpdev.service.PetSitterSelectService;
+import com.jcpdev.service.Ps_boardService;
 
 
 
@@ -29,7 +30,8 @@ public class PetsitterSelectController {
 	@Autowired
 	PetSitterSelectService service;
 	
-
+	@Autowired
+	Ps_boardService service2;
 	
 	@RequestMapping(value = "/join", method = RequestMethod.GET)
 	public String login() {
