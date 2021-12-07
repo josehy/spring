@@ -27,7 +27,7 @@ import com.jcpdev.model.Member;
 import com.jcpdev.model.PageDto;
 import com.jcpdev.service.Q_CommentService;
 import com.jcpdev.service.Q_BoardService;
-
+ 
 @Controller
 //@RequestMapping("/qna_community")    //-> view 폴더명 동일할때 생략, 리다이렉트 community 생략
 public class Q_BoardController {

@@ -14,3 +14,4 @@ public interface Q_CommentService {
 	int delete(int qc_idx); //댓글 삭제
 	void updateCountAll(int qc_idx);
 }
+ 

@@ -7,7 +7,7 @@ import java.util.Map;
 import com.jcpdev.model.Q_Board;
 import com.jcpdev.model.PageDto;
 
-
+ 
 public interface Q_BoardMapper { 
 	int getCount();								//전체 게시글 카운트
 	List<Q_Board> getAll();					//전체 게시글

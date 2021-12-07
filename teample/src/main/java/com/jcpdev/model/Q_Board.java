@@ -26,4 +26,5 @@ public class Q_Board {
 	private Timestamp q_date;				//Date 타입은 날짜만 가져오고 시간을 못가져옵니다.
 	private String ip;
 	private int qc_cnt;
-	}
+}
+ 

@@ -17,4 +17,4 @@ public class Q_Comment {
 	private int idx;
 	private String qc_content;
 	private String nick;
-}
+} 

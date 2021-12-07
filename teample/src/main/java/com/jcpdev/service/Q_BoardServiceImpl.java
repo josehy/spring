@@ -18,7 +18,7 @@ import com.jcpdev.model.PageDto;
 public class Q_BoardServiceImpl implements Q_BoardService{
 	private static final Logger logger = LoggerFactory.getLogger(Q_BoardServiceImpl.class);
 	
-	@Autowired
+	@Autowired 
 	Q_BoardMapper dao;
 	
 	@Override

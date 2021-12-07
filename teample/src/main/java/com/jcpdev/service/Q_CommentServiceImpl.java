@@ -14,7 +14,7 @@ import com.jcpdev.model.Q_Comment;
 
 @Service
 public class Q_CommentServiceImpl implements Q_CommentService{
-	
+	 
 	@Autowired
 	Q_CommentMapper cdao;
 	

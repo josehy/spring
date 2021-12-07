@@ -20,4 +20,4 @@ public interface Q_BoardService {
 	int searchCount(Map<String,Object> map);
 	List<Q_Board> searchList(PageDto dto);
 	Map<String,Object> searchList2(Map<String,Object> param);
-}
+} 

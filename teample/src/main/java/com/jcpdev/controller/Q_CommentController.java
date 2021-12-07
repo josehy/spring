@@ -15,7 +15,7 @@ import com.jcpdev.service.Q_CommentService;
 @Controller
 @RequestMapping("/qna_community/comment")
 public class Q_CommentController {
-	
+	 
 	@Autowired
 	Q_CommentService service;
 	
